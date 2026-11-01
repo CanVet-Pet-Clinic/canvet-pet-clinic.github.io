@@ -58,26 +58,12 @@
 </dl>
 <a class="btn blue" href="https://www.google.com/maps/search/?api=1&amp;query=CANVET%20VETER%C4%B0NER%20KL%C4%B0N%C4%B0%C4%9E%C4%B0%2C%20%C3%87ayba%C5%9F%C4%B1%20Cad.%20No%3A%2085%2C%20Merkezefendi%2C%20Denizli">Yol tarifi al</a>
 </div>
-<div class="map" data-src="https://www.google.com/maps?q=CANVET%20VETER%C4%B0NER%20KL%C4%B0N%C4%B0%C4%9E%C4%B0%2C%20%C3%87ayba%C5%9F%C4%B1%20Cad.%20No%3A%2085%2C%20Merkezefendi%2C%20Denizli&amp;output=embed" data-title="Canvet Veteriner Kliniği haritada">
-<button class="btn line" type="button">Haritayı göster</button>
-<p>Harita, yalnızca düğmeye bastığınızda Google Haritalar’dan yüklenir.</p>
-</div>
+<div class="map"><iframe src="https://www.google.com/maps?q=CANVET%20VETER%C4%B0NER%20KL%C4%B0N%C4%B0%C4%9E%C4%B0%2C%20%C3%87ayba%C5%9F%C4%B1%20Cad.%20No%3A%2085%2C%20Merkezefendi%2C%20Denizli&amp;output=embed" title="Canvet Veteriner Kliniği haritada" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
 </div></section>
 </main>
 <footer class="foot"><div class="wrap">
 <p>Canvet Veteriner Kliniği</p>
 <p class="links"><a href="privacy.html">Gizlilik Politikası</a><a href="mailto:vetcanaglan@gmail.com">vetcanaglan@gmail.com</a></p>
 </div></footer>
-<script>
-document.querySelector('.map button').addEventListener('click', function () {
-  var map = this.parentElement;
-  var frame = document.createElement('iframe');
-  frame.src = map.dataset.src;
-  frame.title = map.dataset.title;
-  frame.loading = 'lazy';
-  frame.referrerPolicy = 'no-referrer-when-downgrade';
-  map.replaceChildren(frame);
-});
-</script>
 </body>
 </html>
