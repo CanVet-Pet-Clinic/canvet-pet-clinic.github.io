@@ -13,10 +13,10 @@ The public website of Canvet Veterinary Clinic in Merkezefendi, Denizli.
 
 The site opens in Turkish; the button at the top right switches to English.
 
-The home page also describes CanVet, the clinic's own desktop program. The
-privacy policy explains how CanVet uses Google Drive for the clinic's encrypted
-backups. Google shows both addresses on its consent screen, so they must keep
-working: if either one moves, update it in Google Auth Platform → Branding too.
+The privacy policy explains how CanVet, the clinic's own desktop program, uses
+Google Drive for the clinic's encrypted backups. Google shows the home and
+privacy addresses on its consent screen, so they must keep working: if either
+one moves, update it in Google Auth Platform → Branding too.
 
 ## How it works
 
