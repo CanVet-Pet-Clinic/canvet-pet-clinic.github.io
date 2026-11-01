@@ -6,12 +6,12 @@ The public website of Canvet Veterinary Clinic in Merkezefendi, Denizli.
 
 ## Pages
 
-| Page | English | Turkish |
+| Page | Turkish | English |
 |---|---|---|
-| Home | [`index.html`](index.html) | [`tr/index.html`](tr/index.html) |
-| Privacy policy | [`privacy.html`](privacy.html) | [`tr/privacy.html`](tr/privacy.html) |
+| Home | [`index.html`](index.html) | [`en/index.html`](en/index.html) |
+| Privacy policy | [`privacy.html`](privacy.html) | [`en/privacy.html`](en/privacy.html) |
 
-The site opens in English; the button at the top right switches to Turkish.
+The site opens in Turkish; the button at the top right switches to English.
 
 The home page also describes CanVet, the clinic's own desktop program. The
 privacy policy explains how CanVet uses Google Drive for the clinic's encrypted
@@ -33,7 +33,7 @@ Then open <http://localhost:8000>.
 
 ## Before publishing
 
-- Change the English and Turkish pages together.
+- Change the Turkish and English pages together.
 - Do not add customer faces, records, prescriptions or anything else from the
   clinic's data. This repository and the site are public.
 
